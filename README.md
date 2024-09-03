@@ -10,12 +10,13 @@ This repository contains the development artifacts for a barcode and QR code sca
 The main goal of this project was to develop a highly intuitive and efficient tool for integrating barcode and QR code scanning capabilities into Standard Bots' existing robotic control systems, thereby reducing operational complexity and improving the user interaction with the machinery.
 
 ## User Flow and System Interaction
-
-Fig 1: User Flow Diagram depicting the step-by-step process of the barcode and QR code scanning application.
+This user flow diagram outlines the steps for configuring and using a barcode scanning feature within a robotic control system, guiding users from the initial setup in the routine editor to execution and feedback stages.
+![User Flow Diagram](user_flow_diagram.png)
+*Fig 1: User Flow Diagram depicting the step-by-step process within the application.*
 
 ## Prototype Demonstration
 
-Click on the image to watch the prototype in action on Vimeo.
+*Click on the image to watch the prototype in action on Vimeo.*
 
 ## Features and Functionalities
 - **Barcode Detection**: Enables the robots to read and interpret various types of barcodes.
