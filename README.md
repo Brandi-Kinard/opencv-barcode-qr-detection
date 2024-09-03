@@ -2,6 +2,7 @@
 
 Click on the badge below to open the notebook directly in Google Colab:
 <br>
+<br>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XYhJWEjsE7C9vP6csqLb9nt69XlYHRkg?usp=sharing)
 
 <br>
