@@ -16,7 +16,7 @@ The main goal of this project was to develop a highly intuitive and efficient to
 <br>
 
 ## User Flow and System Interaction
-This user flow diagram outlines the steps for configuring and using a barcode scanning feature within a robotic control system, guiding users from the initial setup in the routine editor to execution and feedback stages.
+This user flow diagram outlines the steps for configuring and using a barcode scanning feature within a robotic control system, guiding users from the initial setup in the routine editor to execution and feedback stages. [FigJam Flow Diagram](https://www.figma.com/board/pi72Pjj4OiDXFyR90CkEyr/Standard-Bots---Scan-Barcode-and-QR-Codes---Flow-Diagram?node-id=1-3528&t=8PhCEkV7Xn3RAvpI-1)
 ![User Flow Diagram](user_flow_diagram.png)
 *Fig 1: User Flow Diagram depicting the step-by-step process within the application.*
 
