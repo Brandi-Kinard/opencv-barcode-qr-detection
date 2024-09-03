@@ -1,45 +1,61 @@
-# Barcode and QR Code Detection
+# Barcode and QR Code Detection System for Standard Bots
 
+Click on the badge below to open the notebook directly in Google Colab:<br>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XYhJWEjsE7C9vP6csqLb9nt69XlYHRkg?usp=sharing)
 
-## Overview
-This repository contains a Jupyter Notebook that demonstrates the integration of barcode and QR code scanning functionalities as part of a take-home project for Standard Bots. The project aligns with a user flow diagram and a Figma prototype to provide a comprehensive view of the application's functionality. This setup showcases both the detection and decoding capabilities, explaining how these technologies can be dynamically implemented within a broader system.
+## Project Overview
+This repository contains the development artifacts for a barcode and QR code scanning application designed to enhance the functionality of Standard Bots' robotic systems. This application exemplifies a seamless integration of cutting-edge computer vision technology with user-centric design principles to enhance operational efficiency in industrial automation.
 
-## Features
-- **Barcode Detection**: Detects barcodes from images using the `pyzbar` library.
-- **QR Code Detection and Generation**: Generates and detects QR codes to demonstrate end-to-end functionality.
-- **Interactive Visuals**: Includes interactive plots to visually demonstrate the results of barcode and QR code scanning.
+## Objective
+The main goal of this project was to develop a highly intuitive and efficient tool for integrating barcode and QR code scanning capabilities into Standard Bots' existing robotic control systems, thereby reducing operational complexity and improving the user interaction with the machinery.
+
+## User Flow and System Interaction
+
+Fig 1: User Flow Diagram depicting the step-by-step process of the barcode and QR code scanning application.
+
+## Prototype Demonstration
+
+Click on the image to watch the prototype in action on Vimeo.
+
+## Features and Functionalities
+- **Barcode Detection**: Enables the robots to read and interpret various types of barcodes.
+- **QR Code Integration**: Allows for QR code scanning to support a wide range of industrial applications.
+- **User-Centric Design**: A simple and intuitive user interface that supports seamless interaction between the user and the robotic system.
+- **Real-Time Feedback**: Immediate processing and visualization of the scanning results, enhancing user decision-making.
 
 ## Technologies Used
-- **Python**: Programming language used for the project.
-- **OpenCV**: For image processing and barcode detection.
+- **Python**: The primary programming language used for developing the scanning algorithms and backend integration.
+- **OpenCV**: Utilized for implementing the core image processing and scanning functionalities.
+- **Figma**: Used to design and prototype the user interface before implementation.
 - **Pyzbar**: A Python library used for decoding barcodes and QR codes.
 - **QRCode**: A Python library used to generate QR codes.
 - **Pillow (PIL)**: For handling image file operations.
 - **Matplotlib**: For displaying images and results within the notebook.
 
-## Getting Started
-To get started with this project, you can follow the steps below:
+## Installation and Setup
 
-1. **Clone the Repository**
+Follow these steps to set up the project locally:
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/Brandi-Kinard/opencv-barcode-qr-detection.git
+   git clone https://github.com/Brandi-Kinard/opencv-barcode-qr-detection
+2. Navigate to the project directory:
+   ```bash
    cd opencv-barcode-qr-detection
-2. **Open the Notebook in Google Colab**
-   - Click on the badge below to open the notebook directly in Google Colab:<br>
-     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XYhJWEjsE7C9vP6csqLb9nt69XlYHRkg?usp=sharing)
-3. **Install Required Libraries**
-   - The notebook includes cells that automatically install necessary Python packages.
-4. **Run the Notebook**
-   - Execute the notebook cells sequentially to observe barcode and QR code detection and generation.
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+4. Run the application:
+   ```bash
+   python main.py
 
 ## Resources
 - User Flow Diagram: Link to User Flow Diagram
 - Figma Prototype: Link to Figma Prototype
 - Video Demonstration: Link to Vimeo Video
 
-## Contributions
-Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
+## Conclusion and Future Work
+This project not only demonstrates my ability to blend design and technical skills but also highlights my capacity to lead a project that meets high industrial standards. Future enhancements will focus on expanding the barcode and QR code types the system can recognize and improving the system's resilience under different operational conditions.
 
 ## Contact
 For any queries or further information, please contact brandiellenkinard@gmail.com.
