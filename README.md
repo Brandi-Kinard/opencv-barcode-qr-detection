@@ -42,7 +42,7 @@ To get started with this project, you can follow the steps below:
 Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
 
 ## Contact
-For any queries or further information, please contact your_email@domain.com.
+For any queries or further information, please contact brandiellenkinard@gmail.com.
 
 ---
 
